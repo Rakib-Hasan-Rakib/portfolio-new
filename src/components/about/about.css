@@ -1,0 +1,56 @@
+
+.transition-text{
+    color: #00b4fc;
+    font-weight: bold;
+}
+
+.about-heading {
+  position: relative;
+  margin-bottom: 100px;
+}
+.about-heading h1 {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+.about-heading h1:nth-child(1) {
+  color: transparent;
+  -webkit-text-stroke: 1px #00b4fc;
+}
+.about-heading h1:nth-child(2) {
+  color: #00b4fc;
+  animation: waveAnim 2s ease-in-out infinite;
+}
+
+@keyframes waveAnim {
+  0%,
+  100% {
+    clip-path: polygon(
+      0 58%,
+      19% 51%,
+      36% 45%,
+      53% 51%,
+      70% 59%,
+      81% 63%,
+      92% 57%,
+      99% 55%,
+      100% 99%,
+      1% 99%
+    );
+  }
+  50% {
+    clip-path: polygon(
+      0 65%,
+      18% 65%,
+      36% 64%,
+      54% 60%,
+      70% 52%,
+      80% 48%,
+      90% 51%,
+      99% 55%,
+      100% 99%,
+      1% 99%
+    );
+  }
+}

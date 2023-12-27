@@ -1,0 +1,17 @@
+.hire-btn {
+  background-color: #00b4fc;
+  box-shadow: 0px 0px 60px #00b4fc;
+  animation: hireBtnAnim 1s ease-in-out infinite;
+}
+.hire-btn:hover {
+  animation: none;
+}
+@keyframes hireBtnAnim {
+  0%,
+  100% {
+    bottom: 40px;
+  }
+  50% {
+    bottom: 50px;
+  }
+}

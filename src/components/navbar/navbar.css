@@ -12,10 +12,10 @@
 
 @keyframes shadow-animation {
 	0%,100%{
-		box-shadow: 0px 2px 20px #00b4fc;
+		box-shadow: 0px 0px 20px #00b4fc;
 	}
 	50%{
-		box-shadow: 0px 2px 10px #00b4fc;
+		box-shadow: 0px 0px 10px #00b4fc;
 	}
 }
 
