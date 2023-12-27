@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&display=swap");
+
+.mern {
+  color: transparent !important;
+  -webkit-text-stroke: 1px #00b4fc;
+}
+
+.img-container {
+  position: relative;
+}
+.bg-div {
+  position: absolute;
+  color: #fff;
+  background: #010d23;
+  font-family: "Merriweather", serif;
+  transition: all 5s ease-in-out;
+}
+.banner-image:hover ~ .bg-div {
+  left: 45px;
+}
+
+.m-word {
+  position: absolute;
+  right: 5%;
+  animation: mAnim 5s ease-in-out infinite forwards;
+}
+@keyframes mAnim {
+  0%,
+  100% {
+    top: 0%;
+  }
+  50% {
+    top: 60%;
+  }
+}
+.e-word {
+  position: absolute;
+  right: 6%;
+  animation: eAnim 5s ease-in-out infinite forwards;
+}
+@keyframes eAnim {
+  0%,
+  100% {
+    top: 10%;
+  }
+  50% {
+    top: 70%;
+  }
+}
+.r-word {
+  position: absolute;
+  right: 5%;
+  animation: rAnim 5s ease-in-out infinite;
+}
+@keyframes rAnim {
+  0%,
+  100% {
+    top: 20%;
+  }
+  50% {
+    top: 80%;
+  }
+}
+.n-word {
+  position: absolute;
+  right: 5%;
+  animation: nAnim 5s ease-in-out infinite forwards;
+}
+@keyframes nAnim {
+  0%,
+  100% {
+    top: 30%;
+  }
+  50% {
+    top: 90%;
+  }
+}
