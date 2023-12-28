@@ -58,6 +58,14 @@ const Banner = () => {
                 title="visit facebook profile"
               />
             </Link>
+            <Link to="" target="_blank" rel="noopener noreferrer">
+              <img
+                src="https://i.ibb.co/QmMsmx3/resume.jpg"
+                alt="resume icon"
+                className="w-8 grayscale hover:grayscale-0 hover:duration-500 rounded-lg"
+                title="view my resume"
+              />
+            </Link>
           </div>
         </div>
         <div className="flex img-container">
