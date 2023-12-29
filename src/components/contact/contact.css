@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&family=Merriweather:wght@300;400&display=swap");
+
+.contact {
+  box-shadow: 5px 5px 20px #000;
+}
+.contact-form {
+  font-family: "Josefin Sans", sans-serif;
+}
+.submit-btn {
+  box-shadow: 1px 1px 10px #000;
+}
+.submit-btn:hover{
+  box-shadow: 0px 0px 20px #00b4fc;
+}
