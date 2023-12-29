@@ -62,14 +62,16 @@ const Skills = () => {
 
   return (
     <>
+      <div id="skills">
         <h1 className="skill-heading text-8xl font-bold text-center mb-12">
           Skills
         </h1>
 
-      <div className="mb-32 skills-container grid grid-cols-5 gap-4 gap-y-10">
-        {skills.map((skill, i) => (
-          <SkillProgress key={i} skill={skill} />
-        ))}
+        <div className="mb-32 skills-container grid grid-cols-5 gap-4 gap-y-10">
+          {skills.map((skill, i) => (
+            <SkillProgress key={i} skill={skill} />
+          ))}
+        </div>
       </div>
     </>
   );

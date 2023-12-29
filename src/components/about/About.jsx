@@ -4,7 +4,7 @@ import ReactParallaxTilt from "react-parallax-tilt";
 
 const About = () => {
   return (
-    <div className="my-3">
+    <div className="my-3" id="about">
       <div className="about-heading text-8xl uppercase font-bold">
         <h1>About me</h1>
         <h1>About me</h1>

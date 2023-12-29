@@ -6,7 +6,7 @@ import "./banner.css";
 const Banner = () => {
   return (
     <>
-      <div className="flex justify-between items-center my-10">
+      <div className="flex justify-between items-center my-10" id="home">
         <div className="basis-1/2 text-white">
           <h1 className="text-6xl font-bold">
             Need an expert<span className="mern bg-transparent"> MERN </span>
@@ -29,7 +29,7 @@ const Banner = () => {
               <img
                 src="https://i.ibb.co/bsx7cx7/github.png"
                 alt="github icon"
-                className="w-8 grayscale hover:grayscale-0 hover:duration-500"
+                className="w-8"
                 title="visit github profile"
               />
             </Link>
@@ -41,7 +41,7 @@ const Banner = () => {
               <img
                 src="https://i.ibb.co/Q6TTFRr/linkedIn.png"
                 alt="linkedin icon"
-                className="w-10 grayscale hover:grayscale-0 hover:duration-500"
+                className="w-10"
                 title="visit linkedIn profile"
               />
             </Link>
@@ -54,7 +54,7 @@ const Banner = () => {
               <img
                 src="https://i.ibb.co/Jypsrh5/facebook-icon.png"
                 alt="facebook icon"
-                className="w-8 grayscale hover:grayscale-0 hover:duration-500"
+                className="w-8"
                 title="visit facebook profile"
               />
             </Link>
@@ -62,7 +62,7 @@ const Banner = () => {
               <img
                 src="https://i.ibb.co/QmMsmx3/resume.jpg"
                 alt="resume icon"
-                className="w-8 grayscale hover:grayscale-0 hover:duration-500 rounded-lg"
+                className="w-8 rounded-lg"
                 title="view my resume"
               />
             </Link>
