@@ -6,15 +6,20 @@ import './contact.css'
 const Contact = () => {
   return (
     <>
-      <h1 className="skill-heading text-8xl font-bold text-center mb-12" id="contact">
-        Contact Me
-      </h1>
+      <div className="section-title text-8xl uppercase font-bold py-12">
+        <h1>contact</h1>
+        <h1>contact</h1>
+      </div>
       <div className="contact flex mb-32 rounded-xl">
         <div className="basis-1/2">
           <ContactForm />
         </div>
         <div className="basis-1/2 w-full">
-          <Lottie animationData={contactAnim} loop={true} className="rounded-br-2xl" />
+          <Lottie
+            animationData={contactAnim}
+            loop={true}
+            className="rounded-br-2xl"
+          />
         </div>
       </div>
     </>

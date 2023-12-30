@@ -62,10 +62,11 @@ const Skills = () => {
 
   return (
     <>
-      <div id="skills">
-        <h1 className="skill-heading text-8xl font-bold text-center mb-12">
-          Skills
-        </h1>
+      <div className="my-3" id="skills">
+        <div className="section-title text-8xl uppercase font-bold py-12">
+          <h1>skills</h1>
+          <h1>skills</h1>
+        </div>
 
         <div className="mb-32 skills-container grid grid-cols-5 gap-4 gap-y-10">
           {skills.map((skill, i) => (

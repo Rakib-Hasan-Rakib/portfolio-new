@@ -58,7 +58,11 @@ const Banner = () => {
                 title="visit facebook profile"
               />
             </Link>
-            <Link to="" target="_blank" rel="noopener noreferrer">
+            <Link
+              to="https://drive.google.com/file/d/1vtckCk2bWsaiqfPIusUUQA7Iqmqd-vLX/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img
                 src="https://i.ibb.co/QmMsmx3/resume.jpg"
                 alt="resume icon"

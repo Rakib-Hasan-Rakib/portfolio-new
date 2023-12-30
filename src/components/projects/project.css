@@ -1,0 +1,18 @@
+.project {
+  box-shadow: 5px 5px 20px #000;
+}
+.heart-icon {
+  background: #0f121a;
+}
+
+.project-btn {
+  background-color: #00b4fc;
+  border-color: #00b4fc;
+  color: #fff;
+  box-shadow: 0 0 40px 40px transparent inset, 0 0 0 0 #00b4fc;
+  transition: all 150ms ease-in-out;
+}
+.project-btn:hover {
+    background:none;
+  box-shadow: 0 0 10px 0 #00b4fc inset, 0 0 10px 4px #00b4fc;
+}
