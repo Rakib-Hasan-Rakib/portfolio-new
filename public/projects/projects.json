@@ -4,7 +4,7 @@
     "name": "Tourza",
     "description": "Tourza is a Bangladeshi travel agency website. User can book tours from this website. They can read and write blog about tourist spot.",
     "status": "In Progress",
-    "image": "./src/assets/images/tourza.png",
+    "image": "https://i.ibb.co/0Q0b2z3/tourza.png",
     "code": "https://github.com/Rakib-Hasan-Rakib/trip-vista",
     "url": "https://tourza-d9a37.web.app/"
   },
@@ -13,7 +13,7 @@
     "name": "D&H Fashions",
     "description": "D&H Fashions is an E-commerce website. It's a user friendly website. User can buy cloths from this website very easily.",
     "status": "In Progress",
-    "image": "./src/assets/images/dnh-fashions.png",
+    "image": "https://i.ibb.co/G2yy5Mt/dnh-fashions.png",
     "code": "https://github.com/Rakib-Hasan-Rakib/dnh-fashions-complete",
     "url": "https://dnh-fashions-e6fe2.web.app/"
   },
@@ -22,7 +22,7 @@
     "name": "Melody Masters",
     "description": "Melody Masters is a music instruments learning school's website. Here a student can enroll online courses and an instructor can post classes.",
     "status": "In Progress",
-    "image": "./src/assets/images/melody-masters.jpg",
+    "image": "https://i.ibb.co/DRXwJ4f/melody-masters.jpg",
     "code": "https://github.com/Rakib-Hasan-Rakib/melody-masters",
     "url": "https://melody-masters.web.app/"
   }

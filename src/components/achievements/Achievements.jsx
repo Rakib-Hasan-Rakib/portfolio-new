@@ -1,4 +1,3 @@
-import certificateImg from "../../assets/images/certificate-of-frontend.png";
 
 const Achievements = () => {
   return (
@@ -9,7 +8,7 @@ const Achievements = () => {
       </div>
       <div className="w-full flex justify-center items-center">
         <img
-          src={certificateImg}
+          src="https://i.ibb.co/M1ML038/Certificate-of-frontend.png"
           alt="certificate of frontend development"
           className="w-full lg:w-1/2"
         />

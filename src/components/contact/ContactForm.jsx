@@ -3,6 +3,7 @@ import { MdEmail } from "react-icons/md";
 import { FaMessage } from "react-icons/fa6";
 import "./contact.css";
 import axios from "axios";
+import toast from "react-hot-toast";
 
 const ContactForm = () => {
   const handleSubmit = (e) => {
@@ -11,8 +12,16 @@ const ContactForm = () => {
     const email = e.target.email.value;
     const message = e.target.message.value;
     axios
-      .post("http://localhost:3000/sendEmail", { name, email, message })
-      .then((data) => console.log(data.data))
+      .post("https://portfolio-server-delta-coral.vercel.app/sendEmail", {
+        name,
+        email,
+        message,
+      })
+      .then((data) => {
+        if (data.data?.message) {
+          toast.success("I'll reply you soon");
+        }
+      })
       .catch((err) => console.log(err));
   };
 
