@@ -19,7 +19,7 @@ const ContactForm = () => {
   return (
     <>
       <div className="contact-form">
-        <h3 className="capitalize text-white font-semibold text-3xl text-center my-6">
+        <h3 className="capitalize text-white font-semibold text-3xl text-center mt-6 px-2">
           I'm just one click away from you!
         </h3>
         <form

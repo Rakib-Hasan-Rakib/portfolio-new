@@ -22,8 +22,8 @@
     "name": "Melody Masters",
     "description": "Melody Masters is a music instruments learning school's website. Here a student can enroll online courses and an instructor can post classes.",
     "status": "In Progress",
-    "image": "https://i.ibb.co/3kK8y9Z/sundarban-tiger.webp",
-    "code": "https://project1.com",
-    "url": "https://project1.com"
+    "image": "./src/assets/images/melody-masters.jpg",
+    "code": "https://github.com/Rakib-Hasan-Rakib/melody-masters",
+    "url": "https://melody-masters.web.app/"
   }
 ]

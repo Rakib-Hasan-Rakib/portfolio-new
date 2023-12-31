@@ -7,13 +7,15 @@
 
 .img-container {
   position: relative;
+  height: 100%;
+  width: 100%;
 }
 .bg-div {
   position: absolute;
   color: #fff;
   background: #010d23;
   font-family: "Merriweather", serif;
-  transition: all 5s ease-in-out;
+  transition: position 5s ease-in-out;
 }
 .banner-image:hover ~ .bg-div {
   left: 45px;

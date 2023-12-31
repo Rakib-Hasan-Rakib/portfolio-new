@@ -2,17 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
-
-:root{
-    background-color: #1c2130;
-    scroll-behavior: smooth;
+:root {
+  background-color: #1c2130;
+  scroll-behavior: smooth;
 }
 
-.section-title{
- position: relative;
-  margin-bottom: 100px;
+.section-title {
+  position: relative;
 }
-.section-title h1{
+
+.section-title h1 {
+  width: 100%;
+  text-align: center;
   position: absolute;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -56,5 +57,21 @@
       100% 99%,
       1% 99%
     );
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .section-title {
+    margin-bottom: 40px;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .section-title {
+    margin-bottom: 50px;
+  }
+}
+@media only screen and (min-width: 769px) {
+  .section-title {
+    margin-bottom: 80px;
   }
 }

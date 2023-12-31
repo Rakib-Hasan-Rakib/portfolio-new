@@ -4,16 +4,20 @@ import ReactParallaxTilt from "react-parallax-tilt";
 
 const About = () => {
   return (
-    <div className="my-3" id="about">
-      <div className="section-title text-8xl uppercase font-bold">
+    <div id="about">
+      <div className="section-title text-6xl lg:text-8xl uppercase font-bold pb-6">
         <h1>About me</h1>
         <h1>About me</h1>
       </div>
 
-      <div className="flex items-center gap-6 py-20">
+      <div className="flex flex-col lg:flex-row items-center gap-6">
         <div className="basis-1/3 rounded-xl">
           <ReactParallaxTilt>
-            <img src={aboutImg} alt="author image" className="rounded-xl" />
+            <img
+              src={aboutImg}
+              alt="author image"
+              className="w-60 md:w-80 lg:w-full rounded-xl "
+            />
           </ReactParallaxTilt>
         </div>
         <div className="basis-2/3">

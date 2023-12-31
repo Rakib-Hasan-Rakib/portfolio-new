@@ -62,13 +62,13 @@ const Skills = () => {
 
   return (
     <>
-      <div className="my-3" id="skills">
-        <div className="section-title text-8xl uppercase font-bold py-12">
+      <div id="skills">
+        <div className="section-title text-6xl lg:text-8xl uppercase font-bold pb-4">
           <h1>skills</h1>
           <h1>skills</h1>
         </div>
 
-        <div className="mb-32 skills-container grid grid-cols-5 gap-4 gap-y-10">
+        <div className="mb-32 skills-container grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 2xl:grid-cols-6 gap-4 gap-y-6 lg:gap-y-10">
           {skills.map((skill, i) => (
             <SkillProgress key={i} skill={skill} />
           ))}

@@ -6,8 +6,8 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <>
-      <div className=" text-white  py-4 bg-gray-900 rounded-lg">
-        <div className="flex justify-center gap-12">
+      <div className=" text-white  py-4 bg-gray-900 rounded-lg mt-12">
+        <div className="flex flex-col lg:flex-row justify-center gap-4 md:gap-6 lg:gap-12 px-4">
           <div>
             <h4 className="name text-4xl font-semibold tracking-widest">
               Rakibul Hasan

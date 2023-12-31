@@ -16,7 +16,7 @@ const AboutText = () => {
     <>
       <div className="text-white">
         <div>
-          <h1 className="text-4xl capitalize flex gap-2">
+          <h1 className="text-4xl 2xl:text-7xl capitalize flex flex-col md:flex-row gap-2">
             I'm expert as
             <TextTransition
               springConfig={presets.wobbly}
@@ -27,7 +27,7 @@ const AboutText = () => {
             </TextTransition>
             developer
           </h1>
-          <p className="my-4">
+          <p className="my-4 xl:text-lg 2xl:text-4xl">
             Hello! I'm Rakibul Hasan, a passionate MERN Stack developer with a
             strong foundation in building robust web applications. I thrive on
             turning innovative ideas into functional, user-centric products that
