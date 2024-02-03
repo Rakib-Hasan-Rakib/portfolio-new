@@ -4,25 +4,33 @@ import { FaMessage } from "react-icons/fa6";
 import "./contact.css";
 import axios from "axios";
 import toast from "react-hot-toast";
+import emailjs from "@emailjs/browser";
+import { useRef } from "react";
 
 const ContactForm = () => {
+  const form = useRef();
+
   const handleSubmit = (e) => {
     e.preventDefault();
-    const name = e.target.name.value;
-    const email = e.target.email.value;
-    const message = e.target.message.value;
-    axios
-      .post("https://portfolio-server-delta-coral.vercel.app/sendEmail", {
-        name,
-        email,
-        message,
-      })
-      .then((data) => {
-        if (data.data?.message) {
-          toast.success("I'll reply you soon");
+
+    emailjs
+      .sendForm(
+        import.meta.env.SERVICE_ID,
+        import.meta.env.TEMPLATE_ID,
+        form.current,
+        import.meta.env.PUBLIC_KEY
+      )
+      .then(
+        (result) => {
+          if (result?.status == 200) {
+            toast.success("Thanks. I'll get back to you soon.");
+            e.target.reset();
+          }
+        },
+        (error) => {
+          console.log(error);
         }
-      })
-      .catch((err) => console.log(err));
+      );
   };
 
   return (
@@ -32,8 +40,8 @@ const ContactForm = () => {
           I'm just one click away from you!
         </h3>
         <form
+          ref={form}
           onSubmit={handleSubmit}
-          action=""
           className="space-y-4 px-6 py-12"
         >
           <div className="relative">

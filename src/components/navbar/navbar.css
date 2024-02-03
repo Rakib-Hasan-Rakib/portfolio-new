@@ -10,6 +10,10 @@
 	animation: shadow-animation 1s ease-in-out infinite;
 }
 
+.selected{
+	color: aquamarine !important;
+}
+
 @keyframes shadow-animation {
 	0%,100%{
 		box-shadow: 0px 0px 20px #00b4fc;

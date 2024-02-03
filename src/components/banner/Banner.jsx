@@ -2,11 +2,15 @@
 import { Link } from "react-router-dom";
 import bannerTwo from "../../assets/images/Banner-two.png";
 import "./banner.css";
+import ReactParallaxTilt from "react-parallax-tilt";
 
 const Banner = () => {
   return (
     <>
-      <div className="flex flex-col-reverse lg:flex-row justify-center lg:justify-between items-center gap-6 my-12 md:my-16 lg:my-24 xl:my-32" id="home">
+      <div
+        className="flex flex-col-reverse lg:flex-row justify-center lg:justify-between items-center gap-6 my-12 md:my-16 lg:my-24 xl:my-32"
+        id="home"
+      >
         <div className="lg:basis-1/2 text-white">
           <h1 className="text-5xl md:text-6xl font-bold">
             Need an expert<span className="mern bg-transparent"> MERN </span>
@@ -73,11 +77,13 @@ const Banner = () => {
           </div>
         </div>
         <div className="lg:basis-1/2 flex justify-center items-center lg:justify-end img-container">
-          <img
-            src={bannerTwo}
-            alt="author image"
-            className="banner-image rounded-xl w-full md:w-[400px]"
-          />
+          <ReactParallaxTilt>
+            <img
+              src={bannerTwo}
+              alt="author image"
+              className="banner-image rounded-xl w-full md:w-[400px]"
+            />
+          </ReactParallaxTilt>
         </div>
       </div>
     </>

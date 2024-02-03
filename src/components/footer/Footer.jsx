@@ -20,7 +20,7 @@ const Footer = () => {
                 size={20}
                 className="text-white group-hover:text-red-500"
               />
-              rakibhasanrakib3006@gmail.com
+              rakibulhasan4003@gmail.com
             </div>
             <div className="flex gap-2 items-center group">
               <FaWhatsapp

@@ -2,7 +2,7 @@
 const Achievements = () => {
   return (
     <>
-      <div className="section-title text-6xl lg:text-8xl uppercase font-bold pt-12">
+      <div id="info" className="section-title text-6xl lg:text-8xl uppercase font-bold pt-12">
         <h1>Info</h1>
         <h1>Info</h1>
       </div>
