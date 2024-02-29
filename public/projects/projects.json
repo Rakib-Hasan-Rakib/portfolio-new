@@ -18,7 +18,16 @@
     "url": "https://dnh-fashions-e6fe2.web.app/"
   },
   {
-    "id": 1,
+    "id": 3,
+    "name": "Ethical Den",
+    "description": "This is a digital agency website. Where users can experience a next level of animated website. They will see a eye catching color combination here.",
+    "status": "completed",
+    "image": "https://i.ibb.co/7QF54Gw/Screenshot-56.png",
+    "code": "https://github.com/Rakib-Hasan-Rakib/ethical-den",
+    "url": "https://fancy-cranachan-592b0a.netlify.app"
+  },
+  {
+    "id": 4,
     "name": "Melody Masters",
     "description": "Melody Masters is a music instruments learning school's website. Here a student can enroll online courses and an instructor can post classes.",
     "status": "In Progress",
