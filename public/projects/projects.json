@@ -3,7 +3,7 @@
     "id": 1,
     "name": "Tourza",
     "description": "Tourza is a Bangladeshi travel agency website. User can book tours from this website. They can read and write blog about tourist spot.",
-    "status": "In Progress",
+    "status": "completed",
     "image": "https://i.ibb.co/0Q0b2z3/tourza.png",
     "code": "https://github.com/Rakib-Hasan-Rakib/trip-vista",
     "url": "https://tourza-d9a37.web.app/"
@@ -12,7 +12,7 @@
     "id": 2,
     "name": "D&H Fashions",
     "description": "D&H Fashions is an E-commerce website. It's a user friendly website. User can buy cloths from this website very easily.",
-    "status": "In Progress",
+    "status": "completed",
     "image": "https://i.ibb.co/G2yy5Mt/dnh-fashions.png",
     "code": "https://github.com/Rakib-Hasan-Rakib/dnh-fashions-complete",
     "url": "https://dnh-fashions-e6fe2.web.app/"
@@ -28,6 +28,15 @@
   },
   {
     "id": 4,
+    "name": "Flutter Library",
+    "description": "Flutter Library is a application selling website.",
+    "status": "completed",
+    "image": "https://i.ibb.co/wNLPFBb/Screenshot-58.png",
+    "code": "https://github.com/Rakib-Hasan-Rakib/flutter-library",
+    "url": "https://phenomenal-mochi-bb60c6.netlify.app"
+  },
+  {
+    "id": 5,
     "name": "Melody Masters",
     "description": "Melody Masters is a music instruments learning school's website. Here a student can enroll online courses and an instructor can post classes.",
     "status": "In Progress",
