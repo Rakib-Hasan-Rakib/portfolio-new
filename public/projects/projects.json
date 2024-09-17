@@ -18,6 +18,15 @@
     "url": "https://dnh-fashions-e6fe2.web.app/"
   },
   {
+    "id": 6,
+    "name": "Canada Visa",
+    "description": "Canada Visa is a website of an agency. Here an user can check visa information and updates of the application.",
+    "status": "completed",
+    "image": "https://i.ibb.co.com/hZ9TxVZ/Screenshot-68.png",
+    "code": "https://github.com/Rakib-Hasan-Rakib/italy-visa",
+    "url": "https://canada-visa-bank.com/"
+  },
+  {
     "id": 3,
     "name": "Ethical Den",
     "description": "This is a digital agency website. Where users can experience a next level of animated website. They will see a eye catching color combination here.",

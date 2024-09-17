@@ -10,7 +10,7 @@ const SkillProgress = ({ skill }) => {
   const { name, proficiency, image, colorCode } = skill;
 
   useEffect(() => {
-    const duration = 300;
+    const duration = 800;
     const increment = proficiency / duration;
 
     const interval = setInterval(() => {

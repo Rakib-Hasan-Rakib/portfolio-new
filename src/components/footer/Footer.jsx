@@ -38,20 +38,32 @@ const Footer = () => {
                 <img
                   src="https://i.ibb.co/Q6TTFRr/linkedIn.png"
                   alt="linkedin icon"
-                  className="w-10 grayscale hover:grayscale-0 hover:duration-500"
+                  className="w-10 "
                   title="visit linkedIn profile"
                 />
               </Link>
               <Link
-                to="https://www.facebook.com/rk.rakib.180625"
+                to="https://www.facebook.com/profile.php?id=100092871438600"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <img
                   src="https://i.ibb.co/Jypsrh5/facebook-icon.png"
                   alt="facebook icon"
-                  className="w-8 grayscale hover:grayscale-0 hover:duration-500"
+                  className="w-8 "
                   title="visit facebook profile"
+                />
+              </Link>
+              <Link
+                to="https://x.com/mdrakibul456"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="https://i.ibb.co.com/QHyW9PR/twitter-logo.png"
+                  alt="twitter icon"
+                  className="w-8 "
+                  title="visit twitter profile"
                 />
               </Link>
               <Link
@@ -74,7 +86,7 @@ const Footer = () => {
                 <img
                   src="https://i.ibb.co/NmwKD4M/stack-overflow.png"
                   alt="stack overflow icon"
-                  className="w-10 grayscale hover:grayscale-0 hover:duration-500"
+                  className="w-10 "
                   title="visit github profile"
                 />
               </Link>

@@ -1,8 +1,7 @@
-// import bannerOne from "../../assets/images/Banner-one.png";
 import { Link } from "react-router-dom";
-import bannerTwo from "../../assets/images/Banner-two.png";
 import "./banner.css";
 import ReactParallaxTilt from "react-parallax-tilt";
+import { motion } from "framer-motion";
 
 const Banner = () => {
   return (
@@ -51,7 +50,19 @@ const Banner = () => {
             </Link>
 
             <Link
-              to="https://www.facebook.com/rk.rakib.180625"
+              to="https://x.com/mdrakibul456"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="https://i.ibb.co.com/QHyW9PR/twitter-logo.png"
+                alt="twitter icon"
+                className="w-8"
+                title="visit twitter profile"
+              />
+            </Link>
+            <Link
+              to="https://www.facebook.com/profile.php?id=100092871438600"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -78,11 +89,18 @@ const Banner = () => {
         </div>
         <div className="lg:basis-1/2 flex justify-center items-center lg:justify-end img-container">
           <ReactParallaxTilt>
-            <img
-              src={bannerTwo}
-              alt="author image"
-              className="banner-image rounded-xl w-full md:w-[400px]"
-            />
+            <motion.div
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 1.2 }}
+              drag="x"
+              
+            >
+              <img
+                src="https://i.ibb.co.com/dB7Lm3n/md-rakibul-hasan.png"
+                alt="author image"
+                className="banner-image rounded-xl w-full md:w-[400px]"
+              />
+            </motion.div>
           </ReactParallaxTilt>
         </div>
       </div>

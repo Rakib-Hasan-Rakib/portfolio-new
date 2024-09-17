@@ -13,8 +13,14 @@ import mongodbImg from "../../assets/images/mongodb.png";
 import firebaseImg from "../../assets/images/firebase.png";
 import figmaImg from "../../assets/images/figma.png";
 import githubImg from "../../assets/images/github.png";
+import { motion } from "framer-motion";
+import { useInView } from "react-intersection-observer";
 
 const Skills = () => {
+  const { ref, inView } = useInView({
+    threshold: 0.1,
+    triggerOnce: false,
+  });
   const skills = [
     { name: "HTML", proficiency: 95, image: htmlImg, colorCode: "#E44D26" },
     { name: "CSS", proficiency: 85, image: cssImg, colorCode: "#214CE5" },
@@ -67,12 +73,16 @@ const Skills = () => {
           <h1>skills</h1>
           <h1>skills</h1>
         </div>
-
-        <div className="mb-32 skills-container grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 2xl:grid-cols-6 gap-4 gap-y-6 lg:gap-y-10">
-          {skills.map((skill, i) => (
-            <SkillProgress key={i} skill={skill} />
-          ))}
-        </div>
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ duration: 2 }}
+          ref={ref}
+          className="mb-32 skills-container grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 2xl:grid-cols-6 gap-4 gap-y-6 lg:gap-y-10"
+        >
+          {inView &&
+            skills.map((skill, i) => <SkillProgress key={i} skill={skill} />)}
+        </motion.div>
       </div>
     </>
   );
